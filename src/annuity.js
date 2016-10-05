@@ -2,7 +2,7 @@
 
 var annuity = function (params) {
 
-  var K = params.ammount | 100000;
+  var K = params.ammount || 100000;
   var i = params.interest || 0.05;
   var n = params.perAnno || 12;
   var T = params.years || 10;
