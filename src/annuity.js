@@ -14,6 +14,7 @@ var annuity = function (params) {
   var qnt = Math.pow(q, n * T);
 
   var self = {
+    // annuity payment due to interest and paybacks per year
     annuity: function () {
       var A = K * qnt * (q - 1) / (qnt - 1);
       return A;
@@ -25,6 +26,7 @@ var annuity = function (params) {
       var time = Math.log(1 + i / T) / Math.log(1 + i / n);
       return tine;
     },
+    // complete interest payments during the time of fixed interest
     completeInterest: function () {
       var Z = K * (qnt * ((q - 1) * n * T - 1) + 1) / (qnt - 1);
       return Z;
