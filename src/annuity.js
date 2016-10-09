@@ -5,7 +5,7 @@ var annuity = function (params) {
   // loan ammount
   var K = params.ammount || 100000;
   // interest rate
-  var i = params.interest || 0.05;
+  var i = params.interest || 0.04;
   // paybacks per year
   var n = params.perAnno || 12;
   // years of fixed interest
