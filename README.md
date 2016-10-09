@@ -2,4 +2,4 @@
 
 A library to calculate credit decrease and annuity loans.
 
-Still in work.
+Still in work!
