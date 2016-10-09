@@ -1,6 +1,6 @@
 'use strict';
 
-// module definition
+// module exports
 
 module.exports = {
 
