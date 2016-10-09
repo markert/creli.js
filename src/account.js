@@ -1,5 +1,7 @@
 'use strict';
 
+// account function
+
 var account = function (params) {
   var balance = 0 || params.balance;
   var interest = {};
