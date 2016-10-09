@@ -6,6 +6,8 @@ MOCHA = $(BIN)/mocha
 UGLIFY = $(BIN)/uglifyjs
 BEAUTIFY = $(BIN)/js-beautify
 
+#build steps
+
 build:
 	$(BROWSERIFY) ./index.js \
 	--standalone Creli \
